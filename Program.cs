@@ -86,7 +86,6 @@ void ColumnsAverage(int[,] array)
     Console.Write("Среднее арифмитическое по столбцам: ");
     for (int i = 0; i < summcolumn.Length; i++)
     {
-        //Console.Write("Среднее арифмитическое в " + (i + 1) + " столбце: ");
         Console.Write((Math.Round((summcolumn[i]/array.GetLength(0)), 1)) + "   ");
     }
 }
